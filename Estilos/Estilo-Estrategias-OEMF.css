@@ -1,0 +1,113 @@
+body {
+    background: url('../Imagenes/Fondo-GIF.gif') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #E0E1DD; /* Color de texto inspirado en la ciencia ficción */
+}
+
+h1 {
+    color: #FFD700; /* Letras doradas */
+    font-size: 28px; /* Tamaño más grande para captar la atención */
+    margin-bottom: 20px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+h2 {
+    color: #FFD700; /* Azul oscuro */
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+hr {
+    animation: fadeIn 2s ease-in-out;
+}
+
+p, ul, li {
+    color: #E0E1DD; /* Color de texto inspirado en la ciencia ficción */
+    text-align: justify; /* Justificar el texto */
+}
+
+a {
+    color: #FFD700; /* Color de enlaces dorados */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1E90FF; /* Azul claro */
+    text-decoration: underline;
+}
+
+.contenido {
+    margin: 0 auto;
+    width: 80%; /* Ajusta el ancho según tus necesidades */
+    padding: 20px;
+    background-color: rgba(34, 76, 141, 0.8); /* Fondo semitransparente para resaltar el texto */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.estrategia {
+    margin-bottom: 20px;
+    animation: entrarAbajo 1s ease-in-out;
+}
+
+.recuadro {
+    border: 2px dashed #003366; /* Bordes punteados de color azul fuerte */
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semitransparente */
+}
+
+.imagen-muestra {
+    text-align: center;
+    margin: 20px 0;
+    animation: entrarAbajo 1s ease-in-out;
+}
+
+.imagen-muestra img {
+    width: 300px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+	border: 2px solid #FFD700;
+    border-radius: 10px;
+}
+
+.imagen-texto {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.imagen-texto img {
+    width: 300px; /* Tamaño más grande para las imágenes */
+    height: auto;
+    margin-right: 20px;
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+}
+
+.volver {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.volver img {
+    width: 50px;
+    height: auto;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes entrarAbajo {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

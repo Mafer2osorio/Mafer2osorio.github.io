@@ -1,0 +1,78 @@
+body {
+    background: #d6eefd;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #E0E1DD; /* Color de texto inspirado en la ciencia ficción */
+}
+
+h1 {
+    color: #FFD700; /* Letras doradas */
+    font-size: 28px; /* Tamaño más grande para captar la atención */
+    margin-bottom: 20px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+marquee {
+    font-size: 24px;
+    color: #003366; 
+ margin: 20px 0;
+	
+}
+
+
+marquee img {
+    width: 900px;
+    height: auto;
+}
+
+hr {
+    animation: fadeIn 2s ease-in-out;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background:#d6eefd;
+    background-size: cover;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #003366; /* Azul oscuro */
+    color: #FFD700; /* Letras doradas */
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    color: #003366; /* Texto azul oscuro */
+}
+
+a {
+    color: #003366; /* Color de enlaces dorados */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D29BFD; /* Azul claro */
+    text-decoration: underline;
+}
+
+.contenido {
+    margin: 0 auto;
+    width: 80%; /* Ajusta el ancho según tus necesidades */
+    padding: 20px;
+    background-color: rgba(34, 76, 141, 0.8); /* Fondo semitransparente para resaltar el texto */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

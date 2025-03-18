@@ -1,0 +1,56 @@
+body {
+    background-size: cover;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    background-color: #d6eefd; /* Color de fondo inspirado en la UNAM */
+    color: #E0E1DD; /* Color de texto inspirado en la ciencia ficción */
+}
+
+marquee {
+    font-size: 30px;
+    color: #224c8d; /* Letras doradas */
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff; /* Letras doradas */
+    font-size: 24px; /* Tamaño más grande para captar la atención */
+    margin-bottom: 20px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+h2 {
+    color: #FFD700; /* Letras doradas */
+}
+
+p, ul, li {
+    color: #E0E1DD; /* Color de texto inspirado en la ciencia ficción */
+    text-align: justify; /* Justificar el texto */
+}
+
+a {
+    color: #FFD700; /* Color de enlaces dorados */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contenido {
+    margin: 0 auto;
+    width: 80%; /* Ajusta el ancho según tus necesidades */
+    padding: 20px;
+    background-color: rgba(34, 76, 141, 0.8); /* Fondo semitransparente para resaltar el texto */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.imagen-marquee img {
+    margin: 10px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

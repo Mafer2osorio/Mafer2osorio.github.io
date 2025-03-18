@@ -1,0 +1,75 @@
+body {
+    background: url('../Imagenes/Fondo-GIF.gif') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #E0E1DD; /* Color de texto inspirado en la ciencia ficción */
+}
+
+h1 {
+    color: #FFD700; /* Letras doradas */
+    font-size: 28px; /* Tamaño más grande para captar la atención */
+    margin-bottom: 20px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+hr {
+    animation: fadeIn 2s ease-in-out;
+}
+
+p {
+    color: #E0E1DD; /* Color de texto inspirado en la ciencia ficción */
+    margin-bottom: 20px;
+    text-align: justify; /* Justificar el texto */
+}
+
+a {
+    color: #FFD700; /* Color de enlaces dorados */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1E90FF; /* Azul claro */
+    text-decoration: underline;
+}
+
+.contenido {
+    margin: 0 auto;
+    width: 80%; /* Ajusta el ancho según tus necesidades */
+    padding: 20px;
+    background-color: rgba(34, 76, 141, 0.8); /* Fondo semitransparente para resaltar el texto */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.imagen-texto {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.imagen-texto img {
+    width: 300px; /* Tamaño más grande para las imágenes */
+    height: auto;
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    margin-left: 20px; /* Separación del texto */
+}
+
+.imagen-texto.derecha {
+    flex-direction: row-reverse;
+}
+
+.imagen-texto.derecha img {
+    margin-left: 0;
+    margin-right: 20px; /* Separación del texto */
+}
+
+.imagen-texto.izquierda {
+    flex-direction: row-reverse;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

@@ -1,0 +1,84 @@
+body {
+    background: url('../Imagenes/Fondo-GIF.gif') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #E0E1DD; /* Color de texto inspirado en la ciencia ficción */
+}
+
+h1 {
+    color: #FFD700; /* Letras doradas */
+    font-size: 28px; /* Tamaño más grande para captar la atención */
+    margin-bottom: 20px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+hr {
+    animation: fadeIn 2s ease-in-out;
+}
+
+h2 {
+    color: #003366; /* Azul oscuro */
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+p, ul, li {
+    color: #E0E1DD; /* Color de texto inspirado en la ciencia ficción */
+}
+
+a {
+    color: #FFD700; /* Color de enlaces dorados */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1E90FF; /* Azul claro */
+    text-decoration: underline;
+}
+
+.contenido {
+    margin: 0 auto;
+    width: 80%; /* Ajusta el ancho según tus necesidades */
+    padding: 20px;
+    background-color: rgba(34, 76, 141, 0.8); /* Fondo semitransparente para resaltar el texto */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.tabla-pros-contras {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.pros, .contras {
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.pros img, .contras img {
+    width: 30px;
+    height: auto;
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+li i {
+    margin-right: 10px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

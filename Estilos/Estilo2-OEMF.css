@@ -1,0 +1,68 @@
+body {
+    background-color: #F2ECCB;
+    font-family:Montserrat, sans-serif;
+    color: #333;
+}
+
+marquee {
+    font-size: 24px;
+    color: #FF69B4; 
+}
+
+h1, h2, h3 {
+    color: #6A5ACD; 
+	text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+background-color: #B0E0E6;
+text-align: left;	
+}
+
+td {
+    background-color: #E6E6FA; 
+	text-align: left;
+}
+
+a {
+    color: #4682B4; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.division {
+    width: 45%;
+    height: 400px;
+    overflow-y: scroll;
+    margin: 10px auto; /* Centra la división horizontalmente */
+    padding: 10px;
+    border: 5px solid #7CAA98;
+    background-image: url("../Imagenes/Fondo-GIF.gif");
+    background-size: cover;
+    font-family: Verdana;
+    display: block; /* Asegura que el margen auto funcione */
+}
+
+.centro {
+    float: center;
+}
+
+
+
+.imagen-marquee img {
+    border: 5px solid #6A5ACD; /* Color morado para el borde de la imagen */
+    margin: 10px;
+}

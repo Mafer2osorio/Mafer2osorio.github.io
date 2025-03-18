@@ -3,12 +3,12 @@ body {
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    color: #E0E1DD; /* Color de texto inspirado en la ciencia ficción */
+    color: #E0E1DD; 
 }
 
 h1 {
     color: #FFD700; /* Letras doradas */
-    font-size: 28px; /* Tamaño más grande para captar la atención */
+    font-size: 28px; 
     margin-bottom: 20px;
     text-align: center;
     animation: fadeIn 2s ease-in-out;
